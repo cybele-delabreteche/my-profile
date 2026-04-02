@@ -1,0 +1,106 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.intro, .sports, .life, .food, .follow {
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.intro:hover, .sports:hover, .life:hover, .food:hover, .follow:hover {
+  transform: translateY(-4px);
+}
+
+body {
+  background-color: #F9F1F5; 
+  color: #4A3F45;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", serif;
+}
+
+h1 {
+  color: #A45C78; 
+  font-size: 38px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #C97B9C; 
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #D8A1B8;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.btn-blue {
+  background-color: #E89BB5; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px; 
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: #C97B9C;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #C97B9C;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #A45C78;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.list-inline i {
+  font-size: 40px;
+}
